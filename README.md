@@ -54,12 +54,16 @@ AfriArt is a hybrid mobile marketplace designed to sell authentic African artefa
 ---
 
 ## Project Structure
+
+
 afriart-marketplace/
 ├── .github/
 │   ├── workflows/
 │   │   ├── backend-ci.yml
 │   │   └── mobile-build.yml
 │   └── pull_request_template.md
+
+
 ├── mobile_app/
 │   ├── lib/
 │   │   ├── main.dart
@@ -72,6 +76,8 @@ afriart-marketplace/
 │   ├── ios/
 │   ├── pubspec.yaml
 │   └── assets/
+
+
 ├── backend/
 │   ├── src/
 │   │   ├── index.js
@@ -84,15 +90,21 @@ afriart-marketplace/
 │   │   └── config/
 │   ├── package.json
 │   └── .env.example
+
+
 ├── database/
 │   ├── migrations/
 │   ├── seeds/
 │   └── schema.sql
+
+
 ├── docs/
 │   ├── API.md
 │   ├── DATABASE_SCHEMA.md
 │   ├── DEPLOYMENT.md
 │   └── WIREFRAMES.md
+
+
 ├── scripts/
 │   ├── seed-database.sh
 │   ├── update-currency-rates.js
